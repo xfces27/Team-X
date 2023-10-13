@@ -1,0 +1,119 @@
+html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: "Work Sans", sans-serif;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: black;
+  }
+  .flex {
+    padding-left: 10px;
+    padding-right: 15px;
+    /* margin-left: auto;
+    margin-right: auto; */
+  }
+  /* Small */
+  @media (min-width: 768px) {
+    .flex {
+      width: 750px;
+      font-size: 10px;
+    }
+  }
+  /* Medium */
+  @media (min-width: 992px) {
+    .flex {
+      width: 970px;
+     
+    }
+  }
+  /* Large */
+  @media (min-width: 1200px) {
+    .flex {
+      width: 1170px;
+      font-size: 10px;
+    }
+  }
+
+  .header {
+    padding: 30px;
+    background-color:black;
+    color: red;
+    font-size: 60px;
+    border-radius: 10px;
+    text-align: center;
+    
+  }
+
+  .flex {
+    width: 100%;
+    padding: 10px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+  }
+
+.flex .dev{
+  color: red;
+  width: calc(100% / 3);
+  position: relative;
+  display:flex;
+}
+
+.flex .one, .tow , .three, .four , .five , .sex{
+  margin-top: 2%;
+  background-color: rgb(122, 194, 230);
+  color: rgb(71, 7, 131);
+  font-size: 250%;
+  width: 47%;
+  padding-top: 15%;
+  padding-bottom: 15%;
+  text-align: center;
+  position: relative;
+  border-radius: 10px;
+  transition: 1s;
+}
+.one:hover,.tow:hover, .three:hover, .four:hover , .five:hover , .sex:hover{
+  background-color: red;
+  color: rgb(255, 255, 255)
+}
+
+@media (min-width: 768px){
+  .flex {
+    width: 100%;
+    padding: 10px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+  }
+
+  .flex .dev{
+    color: red;
+    width: calc(100% / 3);
+    position: relative;
+    display:flex;
+  }
+  .flex .one, .tow , .three, .four , .five , .sex{
+    margin-top: 2%;
+    background-color: rgb(122, 194, 230);
+    color: rgb(255, 255, 255);
+    font-size: 250%;
+    width: 47%;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    text-align: center;
+    position: relative;
+    border-radius: 10px;
+    transition: 1s;
+  }
+  .one:hover,.tow:hover, .three:hover, .four:hover , .five:hover , .sex:hover{
+    background-color: red;
+    color: rgb(255, 255, 255)
+  }
+  }
